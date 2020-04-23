@@ -29,7 +29,7 @@ public class Penguin extends Bird implements Swim {
     public void dive() {
         if (!this.swimming && this.depths == 0) {
             this.swimming = true;
-            System.out.printf("%s dives into the water.%n", this.getName());
+            System.out.printf("%s takes off in the sky.%n", this.getName());
         }
     }
 
